@@ -2,7 +2,7 @@ console.log("---------- TASK-3 ----------")
 
 function getElementWidth(content, padding, border)
 {
-    total = parseInt(content) + (parseInt(padding)*2) + (parseInt(border)*2)
+    total = parseFloat(content) + (parseFloat(padding)*2) + (parseFloat(border)*2)
     console.log(total)
 }  
 
